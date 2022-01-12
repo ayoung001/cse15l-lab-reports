@@ -14,6 +14,7 @@ And this is an image: ![Image](https://www.freepsdbazaar.com/wp-content/uploads/
 * i am list item 1
 * i am list item 2
 * i am list item 3
+
 1. i 
 2. am 
 3. a 
