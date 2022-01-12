@@ -26,4 +26,4 @@ Horizontal rule:
 `inline code`
 
 ```code block
-print this```
+print this
