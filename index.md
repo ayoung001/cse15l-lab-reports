@@ -27,3 +27,4 @@ Horizontal rule:
 
 ```code block
 print this
+```
