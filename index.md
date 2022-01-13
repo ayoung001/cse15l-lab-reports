@@ -13,7 +13,6 @@ And this is an image: ![Image](https://www.freepsdbazaar.com/wp-content/uploads/
 
 * i am list item 1
 * i am list item 2
-* i am list item 3
 
 1. i 
 2. am 
@@ -29,3 +28,7 @@ Horizontal rule:
 ```code block
 print this
 ```
+
+**THIS IS AN EDIT TO THE FILE, ANYTHING UNDER THIS LINE IS ADDED**
+
+`hello there`
