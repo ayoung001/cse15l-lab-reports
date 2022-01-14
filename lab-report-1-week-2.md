@@ -2,8 +2,6 @@
 
 Welcome to a tutorial regarding remote access anad the filesystem. 
 
-## **Table of Contents**
-
 ## **STEP 1: Installing Visual Studio Code (VSCode) and OpenSSH (situational)**
 
 If you are on a Windows device, then you must install a progam called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Otherwise, skip this first step.
@@ -19,13 +17,14 @@ In VSCode, open a terminal by locating it at the menu option and clicking "New T
 ![figure 2](figure2.png) 
 
 In the terminal, run the following command: `ssh cs15lwi22xyz@ieng6.ucsd.edu` to prompt the following message: 
+
 ```ssh cs15lwi22xyz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-Don't be afraid if you see this message. It is expected to pop up when connecting to servers for the first time. Type `yes`, press enter, and type in your password (don't be alarmed if the grey bar does not move). After logging in successfully, the following messages should be received: 
+Don't be afraid if you see this message. It is expected to pop up when connecting to servers for the first time. Type `yes`, press enter, and type in your password. After logging in successfully, the following messages should be received: 
 
 ![figure 3](figure3.png). 
 
@@ -60,6 +59,7 @@ The command `scp`, which is always run from the client, copies files from your c
 
 ---
 We begin by creating a file called `WhereAmI.java` which has the following contents: 
+
 ```
 class WhereAmI 
 {
@@ -118,11 +118,11 @@ Some things you can do to save time is adding semicolons to run multiple command
 
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
-**An example of this is:**  *
-
-And using your arrow keys in the terminal to access your most recent commands!
+**An example of this is:** 
 
 ![figure 10](figure10.png)
+
+And using your arrow keys in the terminal to access your most recent commands!
 
 ## Conclusion
 
