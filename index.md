@@ -32,3 +32,5 @@ print this
 **THIS IS AN EDIT TO THE FILE, ANYTHING UNDER THIS LINE IS ADDED**
 
 `hello there`
+
+[Lab Report 1](lab-report-1-week-2.html)
