@@ -33,4 +33,4 @@ print this
 
 `hello there`
 
-[Lab Report 1](https://<ayoung001>.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
+[Lab Report 1](https://ayoung001.github.io/lab-report-1-week-2.md/lab-report-1-week-2.html)
