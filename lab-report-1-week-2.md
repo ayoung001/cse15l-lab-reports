@@ -18,7 +18,8 @@ In VSCode, open a terminal by locating it at the menu option and clicking "New T
 
 In the terminal, run the following command: `ssh cs15lwi22xyz@ieng6.ucsd.edu` to prompt the following message: 
 
-```ssh cs15lwi22xyz@ieng6.ucsd.edu
+```
+ssh cs15lwi22xyz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
