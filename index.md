@@ -1,36 +1,5 @@
-# Hi! I am Heading 1
-## and I am Heading 2
+# **WINTER 2022**
+![Image](https://www.freepsdbazaar.com/wp-content/uploads/2020/06/sky-replace/sun-rise/sunrise-19-freepsdbazaar.jpg)
 
-*THIS IS ITALICIZED*
-
-**i am bolded.**
-
-This is a link to the CSE15L website: [Link](https://ucsd-cse15l-w22.github.io/)
-
-And this is an image: ![Image](https://www.freepsdbazaar.com/wp-content/uploads/2020/06/sky-replace/sun-rise/sunrise-19-freepsdbazaar.jpg)
-
-> This is a blockquote
-
-* i am list item 1
-* i am list item 2
-
-1. i 
-2. am 
-3. a 
-4. numbered 
-5. list 
-
-Horizontal rule: 
----
-
-`inline code`
-
-```code block
-print this
-```
-
-**THIS IS AN EDIT TO THE FILE, ANYTHING UNDER THIS LINE IS ADDED**
-
-`hello there`
-
+**TABLE OF CONTENTS**
 [Lab Report 1](https://ayoung001.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
