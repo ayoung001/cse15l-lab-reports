@@ -131,6 +131,8 @@ Finally, we can also copy a file from our local client to the server. Like above
 
 ![figure 11](figure11.png)
 
+As seen from above, this would save us an immense amount of time. If we were to type each command line by line, it would take many, many keystrokes. Utilizing arrow keys, enter, and ";" for the commands, we can type the command shown in the above figure in around 10 keystrokes as opposed to 20+!
+
 ## Conclusion
 
 So that's it. The basics of remote running and filesystems. Good luck!
