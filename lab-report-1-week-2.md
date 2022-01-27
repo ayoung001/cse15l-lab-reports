@@ -119,6 +119,12 @@ Some things you can do to save time is adding semicolons to run multiple command
 
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
+We can also copy a file from our local client to the server. Like above, we can do this in one line by typing: 
+
+`scp Hello.java cs15lwi22xxx@ieng6.ucsd.edu:~/; ssh cs15lwi22xxx@ieng6.ucsd.edu "javac Hello.java; java Hello"`
+
+![figure 10](figure10.png)
+
 **An example of this is:** 
 
 ![figure 10](figure10.png)
