@@ -1,4 +1,4 @@
-# **LAB REPORT 1**
+# **LAB REPORT 1: Remote Access and the File System**
 
 Welcome to a tutorial regarding remote access anad the filesystem. 
 
