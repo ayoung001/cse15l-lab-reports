@@ -6,7 +6,7 @@ Welcome to a tutorial regarding remote access anad the filesystem.
 
 If you are on a Windows device, then you must install a progam called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Otherwise, skip this first step.
 
-To start, follow the link to the VSCode website: [https://code.visualstudio.com/](https://code.visualstudio.com/) to download the version that matches your operating system. After the installation has finished, click on the the icon to open a page similar to this: ![figure 1](figure1.png)
+To start, follow the link to the VSCode website: [https://code.visualstudio.com/](https://code.visualstudio.com/) to download the version that matches your operating system. After the installation has finished, click on the the icon to open a page similar to this: ![figure 1](1figure1.png)
 
 ## **STEP 2: Remotely Connecting**
 
@@ -14,7 +14,7 @@ Begin by looking up your course respective ieng6 account using this [link](https
 
 In VSCode, open a terminal by locating it at the menu option and clicking "New Terminal."   
 
-![figure 2](figure2.png) 
+![figure 2](1figure2.png) 
 
 In the terminal, run the following command: `ssh cs15lwi22xyz@ieng6.ucsd.edu` to prompt the following message: 
 
@@ -27,7 +27,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Don't be afraid if you see this message. It is expected to pop up when connecting to servers for the first time. Type `yes`, press enter, and type in your password. After logging in successfully, the following messages should be received: 
 
-![figure 3](figure3.png). 
+![figure 3](1figure3.png). 
 
 Congragulations, you have successfully connected your computer's terminal (client) to a remote computer! (server).
 
@@ -50,9 +50,9 @@ Below is a compiled list of useful commands to try in your terminal:
 
 **Some examples of running these commands are:** 
 
-![figure 4](figure4.png)
+![figure 4](1figure4.png)
 
-![figure 5](figure5.png)
+![figure 5](1figure5.png)
 
 ## **STEP 4: Moving Files over SSH with scp**
 
@@ -78,7 +78,7 @@ Run the following command in the file's directory:  `$ scp WhereAmI.java cs15lwi
 
 **The following image should be similar to what your terminal displays:** 
 
-![figure 6](figure6.png)
+![figure 6](1figure6.png)
 
 ## **STEP 5: Setting an SSH Key**
 
@@ -97,11 +97,11 @@ SSH or Secure Shell is a service that that allows you to modify their remote ser
 
 **The whole process should look something like this:**
 
-![figure 7](figure7.png)
+![figure 7](1figure7.png)
 
 **If on Windows the additional steps:** 
 
-![figure 8](figure8.png)
+![figure 8](1figure8.png)
 
 **Copying the *public* key to the `ssh` directory**
 
@@ -109,7 +109,7 @@ The public key is the file with the `.pub` extension. Use the `scp` command to c
 
 **As instructed from above:** 
 
-![figure 9](figure9.png)
+![figure 9](1figure9.png)
 
 ## **STEP 6: Optimizing Remote Running**
 
@@ -121,7 +121,7 @@ Some things you can do to save time is adding semicolons to run multiple command
 
 **An example of this is:** 
 
-![figure 10](figure10.png)
+![figure 10](1figure10.png)
 
 And using your arrow keys in the terminal to access your most recent commands!
 
@@ -129,7 +129,7 @@ Finally, we can also copy a file from our local client to the server. Like above
 
 `scp Hello.java cs15lwi22xxx@ieng6.ucsd.edu:~/; ssh cs15lwi22xxx@ieng6.ucsd.edu "javac Hello.java; java Hello"`
 
-![figure 11](figure11.png)
+![figure 11](1figure11.png)
 
 As seen from above, this would save us an immense amount of time. If we were to type each command line by line, it would take many, many keystrokes. Utilizing arrow keys, enter, and ";" for the commands, we can type the command shown in the above figure in around 10 keystrokes as opposed to 20+!
 
