@@ -9,4 +9,4 @@
 
 * [Lab Report 3](https://ayoung001.github.io/cse15l-lab-reports/LAB%203/lab-report-3-week-6.html)
 
-* [Lab Report 4](https://ayoung001.github.io/cs15l-lab-reports/LAB%204/lab-report-4-week-8.html)
+* [Lab Report 4](https://ayoung001.github.io/cse15l-lab-reports/LAB%204/lab-report-4-week-8.html)
