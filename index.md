@@ -11,4 +11,4 @@
 
 * [Lab Report 4](https://ayoung001.github.io/cse15l-lab-reports/LAB%204/lab-report-4-week-8.html)
 
-* [Lab Report 5](https://ayoung001.github.io.cse15l-lab-reports/LAB$205/lab-report-5-week-10.html)
+* [Lab Report 5](https://ayoung001.github.io/cse15l-lab-reports/LAB%205/lab-report-5-week-10.html)
