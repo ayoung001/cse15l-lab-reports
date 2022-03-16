@@ -76,17 +76,19 @@ For `576.md`, the implementation that I cloned was correct while our implementat
 
 my implementation, which is on top, printed out nothing while the cloned `markdown-parse` printed out the correct result. The bug in my `markdown-parse` is that I did not correctly check for links in markdown for links after colons. 
 
-As for the code that should be changed, I would just have to add another if statement checking for colons and if it satisfies markdown rules. 
+![figure 2](5figure2.png)
+
+As for the code that should be changed, I would just have to add another if statement somewhere within the while loop that checks for colons.
 
 For `510.md`, the implementation that I cloned was incorrect while our implementation was right. As seen in the image: 
 
-![figure 2](5figure2.png)
+![figure 3](5figure3.png)
 
 The cloned implementation, which had the result `[/uri]` is incorrect and should print out nothing because in the original test, there is a space between the bracket and parentheses. 
 
 The code that should be fixed is: 
 
-![figure 3](5figure3.png)
+![figure 4](5figure4.png)
 
 We need to test whether there is a space between the "]" and "(". In order to be a link, there shouldn't be a space between the closing bracket and open parentheses. 
 
